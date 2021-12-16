@@ -1,0 +1,10 @@
+/.git/
+/.vscode/
+/node_modules/
+.gitignore
+.npmignore
+.prettierrc
+tslint.json
+tsconfig.json
+note.md
+*.log

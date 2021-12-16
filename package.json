@@ -1,0 +1,35 @@
+{
+  "name": "cross-tab-hjt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hjingting/cross-tab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hjingting/cross-tab/issues"
+  },
+  "homepage": "https://github.com/Hjingting/cross-tab#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-loader": "^8.3.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.3",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "loader-utils": "^3.2.0",
+    "webpack": "^4.16.5"
+  }
+}
